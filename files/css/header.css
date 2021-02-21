@@ -12,7 +12,7 @@ header {
 
 #main-menu-container {
     width: 100%;
-    background-color: #3d3d3d;
+    background-color: #bd0003;
 }
 
 .container {
@@ -49,12 +49,13 @@ header {
 
 .navbar {
     overflow: hidden;
-    background-color: #3d3d3d;
+    background-color: #bd0003;
     font-family: Arial;
+    z-index: 1;
 }
 .sticky {
     position: fixed;
-    top: 0;
+    top: 43px;
     width: 100%;
   }
 
@@ -71,6 +72,7 @@ header {
 
 .navbar a:hover {
     text-decoration: underline;
+    
 }
 
 
@@ -112,7 +114,8 @@ header a {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: #555;
+    /* background-color: #555; */
+    background-color: #a51417;
 }
 
 

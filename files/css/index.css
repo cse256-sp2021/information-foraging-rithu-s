@@ -71,7 +71,7 @@
 .column .class-news {
     text-align: left;
     color: white;
-    font-size: 2.5em;
+    font-size: 1.25em;
 }
 
 .column a {
@@ -81,6 +81,7 @@
     padding-left: 24px;
     margin-bottom: 1em;
     font-size: 1.25em;
+    
 }
 
 .column a.inline {
