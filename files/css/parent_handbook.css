@@ -1,2 +1,11 @@
 @import url("common.css");
 @import url("side_menu.css");
+
+#handbook-list{
+    margin-left: 60px; 
+    font-size: 19px; 
+    line-height: 27px;
+}
+.hb-inner-list{
+    margin-left: 50px;
+}
