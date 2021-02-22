@@ -24,3 +24,11 @@ main li {
 .classroom p {
     font-size: 1.15em;
 }
+#curriculum-details-list {
+    margin-left: 80px; 
+    width: 800px; 
+    line-height: .85em;
+}
+#inner-list{
+    margin-left: 80px; 
+}
