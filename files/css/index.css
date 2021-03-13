@@ -1,5 +1,10 @@
 @import url("common.css");
 @import url("slideshow.css");
+
+img{
+    height: 350px; 
+}
+
 #first-article-first-text {
     font-weight: lighter;
     line-height: 1.333;
@@ -14,12 +19,19 @@
 }
 
 #visit-our-school {
-    text-align: center;
+    /* text-align: center;
     background-color: #eee;
     padding: 60px;
     margin-bottom: 2em;
     width: 560px; 
-    margin-right: 40px; 
+    margin-right: 40px;  */
+
+    text-align: center;
+    background-color: #eee;
+    padding: 60px;
+    padding-bottom: 40px; 
+    margin-bottom: 2em; 
+    width: 560px; 
 }
 
 #visit-our-school p {
@@ -41,12 +53,19 @@
     padding: 8px 20px;
 }
 #hours-of-operation {
-    text-align: center;
+    /* text-align: center;
     background-color: #eee;
     padding: 60px;
     padding-bottom: 40px; 
     margin-bottom: 2em; 
+    width: 560px;  */
+
+    text-align: center;
+    background-color: #eee;
+    padding: 60px;
+    margin-bottom: 2em;
     width: 560px; 
+    margin-right: 40px; 
 }
 .visit-hours-container {
     display: flex;
@@ -80,6 +99,10 @@
     color: white;
     font-size: 1.25em;
 }
+/* .column h2 {
+    font-size: 1em;
+
+} */
 
 .column .class-news {
     text-align: left;
@@ -112,7 +135,12 @@
 }
 
 article h2 {
-    font-size: 1.25rem;
+    font-size: .93rem;
+    margin-bottom: 2px; 
+}
+#right-column p {
+    margin-bottom: 2px; 
+    margin-top:  10px; 
 }
 
 .column article a {
@@ -122,8 +150,8 @@ article h2 {
 }
 
 .column article {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: .25em;
+    margin-bottom: .25em;
 }
 
 main hr {
