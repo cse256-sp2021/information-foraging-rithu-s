@@ -8,6 +8,19 @@ main li {
     font-size: 1.15em;
     margin-bottom: 1em;
 }
+main ul{
+    margin-left: 80px; 
+    width: 750px; 
+}
+.column {
+    float: left;
+    width: 40%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .classroom {
     margin-top: 6em;
@@ -24,11 +37,21 @@ main li {
 .classroom p {
     font-size: 1.15em;
 }
-#curriculum-details-list {
+/* #curriculum-details-list {
     margin-left: 80px; 
     width: 800px; 
     line-height: .85em;
 }
 #inner-list{
     margin-left: 80px; 
+}
+#school-phil-list {
+    margin-left: 80px; 
+    width: 750px; 
+    
+} */
+
+main h2{
+    color: #a71b1e;
+    font-weight: 400; 
 }

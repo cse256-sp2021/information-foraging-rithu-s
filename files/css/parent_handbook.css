@@ -1,11 +1,36 @@
 @import url("common.css");
 @import url("side_menu.css");
 
-#handbook-list{
+/* #handbook-list{
     margin-left: 60px; 
     font-size: 19px; 
     line-height: 27px;
 }
 .hb-inner-list{
     margin-left: 50px;
+} */
+main h2{
+    color: #a71b1e;
+    font-weight: 400; 
+}
+main ul {
+    margin-top: 1em;
+}
+
+main li {
+    font-size: 1.15em;
+    margin-bottom: 1em;
+}
+main ul{
+    margin-left: 80px; 
+    width: 750px; 
+}
+.column {
+    float: left;
+    width: 40%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
