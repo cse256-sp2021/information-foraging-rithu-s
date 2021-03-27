@@ -81,3 +81,12 @@ main li {
 #class-schedule td {
     border: 1px solid #ddd;
 }
+.column {
+    float: left;
+    width: 45%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
